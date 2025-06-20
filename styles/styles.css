@@ -120,6 +120,26 @@ a{
 
 /* available cars */
 
+
+/* .ec-btn{
+  background-color: #ffba53; 
+  border: none;
+  color: white;
+  margin-left: 400px;
+  margin: 200px;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+.ec-btn:hover {
+  background-color: #e09b35;
+  
+} */
+
 .range__container {
   width: 70%;
   margin: 0 auto;
@@ -166,17 +186,6 @@ a{
   margin: 0;
 }
 
-.range__details a {
-  display: inline-block;
-  margin-top: 10px;
-  font-size: 1.5rem;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 10px;
-  border-radius: 50%;
-  color: white;
-  transition: background 0.3s;
-}
-
 .range__details a:hover {
   background: rgba(255, 255, 255, 0.4);
 }
@@ -207,6 +216,8 @@ a{
   margin-bottom: 3rem;
   border: non;
 }
+
+
 
 /* banners section */
 
@@ -272,19 +283,102 @@ a{
 }
 
 
+/* contact us  */
+
+.contact{
+    
+    padding: 30px;
+    background-color: rgb(39, 37, 37);
+    color: white;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    /* background-color: #e09b35; */
+   
+}
+
+.details h2{
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.details h4{
+  margin: 10px;
+  margin-bottom: 50px;
+}
+.details p{
+  margin: 10px;
+}
+
+.details{
+  /* background-color: white; */
+    text-align: start;
+    width: 600px;
+    font-size: 20px;   
+    margin-left: 200px;
+    padding: 20px 0px;
+}
+
+.form-box{
+  /* background-color: grey; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  
+  
+  justify-content: space-between;
+  
+}
+
+.contact-form div{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  
+  justify-content: center;
+  
+}
+
+.input-box {
+  width: 275px;
+  padding: 15px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.message-box{
+  border-radius: 10px;
+  padding: 15px;
+  outline: none;
+  border: none;
+}
+
 /* footer section  */
 
 .footerBottom{
-    background-color: #ffba53;
+    background-color: rgb(39, 37, 37);
     padding: 20px;
     text-align: center;
-    border: none;
-    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-top: 1px solid grey;
+    /* box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  */
 
 }
 
 .footerBottom p{
-    color: black;
+    color: white;
     font-size: 25;
     border: none;
     
