@@ -45,7 +45,7 @@ a{
 }
 
 .hero-section {
-    background-image: url(./assets/header-bg.png);
+    background-image: url(../assets/header-bg.png);
     background-color: white;
     background-size: cover;
     background-position: center;
@@ -111,7 +111,8 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
 .book{
@@ -120,43 +121,6 @@ a{
     justify-content: center;
 }
 
-.banner__container {
-  padding-block: 5rem;
-  overflow: hidden;
-}
-
-.banner__wrapper {
-  width: max-content;
-  display: flex;
-  align-items: center;
-  gap: 8rem;
-
-  animation: scroll 45s linear infinite;
-}
-
-.banner__wrapper img {
-  height: 100px;
-}
-
-@keyframes scroll {
-  to {
-    transform: translateX(calc(-50% - 4rem));
-  }
-}
-
-.description {
-    font-size: 20px;
-    text-align: center;
-    padding-top: 50px;
-    
-}
-
-p{
-    color: black;
-    text-decoration: none;
-    font-size: 25;
-    padding: 20;
-}
 
 .range__container {
   width: 70%;
@@ -243,18 +207,85 @@ p{
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  border: non;
 }
+
+.banner__container {
+  padding-block: 5rem;
+  overflow: hidden;
+}
+
+.banner__wrapper {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+
+  animation: scroll 45s linear infinite;
+}
+
+.banner__wrapper img {
+  height: 100px;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-50% - 4rem));
+  }
+}
+
+.side-image{
+    background-image: url(../assets/description-side.jpg);
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.description {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+    width: 100%;
+    height: 349px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.description h2{
+  margin-bottom: 10px;
+}
+
+.description p{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25;
+    padding: 8px;
+    margin-left: 20px;
+}
+
 
 
 
 .footerBottom{
-    background-color: #000;
+    background-color: #ffba53;
     padding: 20px;
     text-align: center;
+    border: none;
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
 }
 
 .footerBottom p{
-    color: white;
+    color: black;
+    font-size: 25;
+    border: none;
+    
 }
 
 .designer{
