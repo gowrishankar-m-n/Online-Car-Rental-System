@@ -8,7 +8,7 @@ html, body {
 body{
     margin: 0;
     padding: 0;
-    font-family: "Syncopate", sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100%;
     min-height: 100vh;
     min-width: 100vw;
@@ -60,7 +60,7 @@ body{
 }
 
 .home-btn:hover {
-  background-color: grey;
+  background-color: #e09b35;
   
 }
 
@@ -121,7 +121,7 @@ body{
 }
 
 .login-button:hover {
-  background-color: grey;
+  background-color: #e09b35;
   
 }
 
