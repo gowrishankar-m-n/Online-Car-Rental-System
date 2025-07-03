@@ -342,13 +342,12 @@ a{
   display: flex;
   width: 100%;
   gap: 10px;
-  
   justify-content: center;
   
 }
 
 .input-box {
-  width: 275px;
+  width: 287px;
   padding: 15px 15px;
   font-size: 16px;
   border-radius: 8px;
@@ -360,10 +359,34 @@ a{
 }
 
 .message-box{
-  border-radius: 10px;
+  border-radius: 10px;  
   padding: 15px;
   outline: none;
   border: none;
+  margin-bottom: 10px;
+}
+
+.submit{
+  display: flex;
+  align-items: end;
+  background-color: green;
+}
+
+.submit-btn {
+  background-color: #ffba53; 
+  width: 25%;
+  border: none;
+  color: black;
+  padding: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.submit-btn:hover{
+  
+  background-color: #e09b35;
 }
 
 /* footer section  */
